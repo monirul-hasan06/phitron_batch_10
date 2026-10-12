@@ -1,0 +1,7 @@
+/**
+Take a number from user and check if its a even number or odd number.
+Take a number from user and check if its a positive or negative number.
+Explain if else ladder.
+
+*/
+
