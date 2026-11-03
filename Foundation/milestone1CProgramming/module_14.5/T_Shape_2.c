@@ -1,0 +1,16 @@
+#include<stdio.h>
+    int main(){
+        int N, star = 1;
+        scanf("%d", &N);
+        for(int i=1; i<=N; i++){
+            for(int k=1; k<=N-i;k++){
+                printf(" ");
+            }
+            for(int j=1; j<=star; j++){
+                printf("*");
+            }
+            printf("\n");
+            star +=2;
+        }
+        return 0;
+    }
